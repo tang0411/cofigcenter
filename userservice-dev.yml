@@ -13,7 +13,7 @@ spring:
   application:
     name: userservice
   datasource:
-    url: jdbc:mysql://localhost/tang
+    url: jdbc:mysql://localhost/mysql
     password: ps123456
     username: root
     driver-class-name: com.mysql.jdbc.Driver
