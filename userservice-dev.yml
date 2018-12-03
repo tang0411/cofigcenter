@@ -1,0 +1,19 @@
+server:
+  port: 8883
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: userservice
+  datasource:
+    url: jdbc:mysql://localhost/tang
+    password: ps123456
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
